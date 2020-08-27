@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Restauracja - kontakt </title>
+        <meta name="description" content="NazwaRestauracji - najlepsze jedzenie."/>
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Vibur" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row text-center">
+                <h1 id="logo"> Nazwa Restauracji </h1>
+            </div>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#theNav" aria-expended="false"> 
+                            <span class="sr-only">Toggle Navigation </span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>        
+                        </button>
+                        <a class="navbar-brand" href="index.html">Nazwa Restauracji</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="theNav">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="oferta.html">Oferta</a></li>
+                            <li class="active"><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+
+            <div class="row text-center" id="telefon">
+                <h1> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Zamów już teraz! <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></h1>
+                <a href="tel:+48123456789"><h1>123-456-789</h1></a>
+
+            </div>
+            <div class="row">
+                <div id="map"></div>
+                <script>
+                    // Initialize and add the map
+                    function initMap() {
+                        // The location of Uluru
+                        var ChickenKing = {lat: 51.2168207, lng: 22.6914272};
+                        // The map, centered at Uluru
+                        var map = new google.maps.Map(
+                            document.getElementById('map'), {zoom: 15, center: ChickenKing});
+                        // The marker, positioned at Uluru
+                        var marker = new google.maps.Marker({position: ChickenKing, map: map});
+                    }
+                </script>
+                <!--Load the API from the specified URL
+* The async attribute allows the browser to render the page while the API loads
+* The key parameter will contain your own API key (which is not needed for this tutorial)
+* The callback parameter executes the initMap() function
+-->
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCv8f0wjRvWDhnFey0ZV4l5CRLtbE8zfJE&callback=initMap">
+                </script>
+            </div>
+            <div id="stopka">
+                <div class="row text-center">
+                    <h1 id="findus"> Find us online !</h1>
+                    <div class="col-xs-4">
+                        <a href="https://www.facebook.com"><img src="https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/facebook-512.png" width="200px" height="200px" class="img-circle img-responsive"</a>
+
+                            </div>
+                        <div class="col-xs-4">
+                            <a href="https://www.twitter.com"><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" width="200px" height="200px" class="img-circle img-responsive"</a>
+
+                                </div>
+                            <div class="col-xs-4">
+                                <a href="https://www.instagram.com"><img src="https://instagram-brand.com/wp-content/uploads/2016/11/app-icon2.png" width="200px" height="200px" class="img-circle img-responsive"</a>
+                                    </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                        <!-- Include all compiled plugins (below), or include individual files as needed -->
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                        </body>
+                    </html>

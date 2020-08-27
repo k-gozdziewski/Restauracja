@@ -1,0 +1,82 @@
+.navbar {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 20px; 
+    background-color: transparent !important;
+    border: 0px !important;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+    font-size: 30px;
+}
+.navbar-brand {
+    color: black !important;
+    font-size: 30px !important;
+}
+#logo {
+    font-family: 'Vibur', cursive;
+    font-size: 50px;
+    background-color: transparent;
+    margin-bottom: 0;
+    margin top: 0;
+}
+.carousel-inner > .item > img {
+  width:800px;
+    margin: 0 auto;
+}
+#topbox {
+    padding-top: 20px;
+    padding-bottom:20px;
+    background: url(tlonajlepsze.jpg);
+}
+#botbox {
+    padding-bottom: 20px;
+    background: url(tlonajlepsze.jpg);
+}
+#map {
+    height: 500px;
+}
+#findus {
+    padding-right: 100px;
+}
+#telefon {
+    font-family: 'Vibur', cursive;
+    background-color: lightgreen;
+}
+#stopka {
+    font-family: 'Vibur', cursive;
+    align-items: center;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    
+}
+#menu {
+    font-family: 'Courgette', cursive;
+}
+#inline {
+    display: block;
+}
+.table-responsive {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+.jumbotron {
+    background-color: transparent !important;
+}
+#myCarousel {
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+}
+#dlaczegomy {
+    text-align: center;
+    
+}
+#dlaczegomytxt {
+    font-family: 'Courgette', cursive;
+    font-size: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+body {
+    background: url(tlonajlepsze.jpg);
+}
